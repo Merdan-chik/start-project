@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.header {
+  padding: 40px;
+  width: 900px;
+  background-color: #f0f8ff;
+}
+
+.nav {
+  background-color: #496883;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 900px;
+}
+
+.nav a {
+  margin-right: 30px;
+  color: #fff;
+}
+
+.nav a:last-child {
+  margin-right: 0;
+  /* color: red; */
+}
+
+.main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  background-color: #dcebf0;
+  width: 900px;
+}
+
+.footer {
+  background-color: #1d3f5e;
+  color: #fff;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 900px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 16px;
+}
+
+blockquote {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 0;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  border-left-color: #f24137; /*Цвет линии слева */
+  border-left-style: solid; /* Стиль линии */
+  border-left-width: 3px; /* Толщина линии */
+  margin-left: 0;
+  /*padding-left: 3px; /* Расстояние между линией и текстом */
+}
+
+.article {
+  margin-bottom: 50px;
+}
+
+.article:last-child {
+  margin-bottom: 0;
+}
